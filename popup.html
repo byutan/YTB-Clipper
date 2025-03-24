@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>YTB Clipper</title>
+    <style>
+        body 
+        {
+            width: 200px;
+            height: 100px;
+            background-color: white;
+            position: relative;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .divider
+        {
+            position: absolute;
+            top: 50%;
+            left: 0;
+            width: 100%;
+            border-top: 1px solid black;
+            transform: translateY(-50%);
+        }
+        .upcontainer 
+        {
+            position: absolute;
+            top: 25%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            display: flex;
+            align-items: center;
+            gap: 8px; 
+        }
+        .image 
+        {
+            width: 50px;    
+            height: auto;
+        }
+        .text 
+        {
+            font-size: 14px;
+            font-weight: bold;
+        }
+        .ytb 
+        {
+            color: #8B0000; 
+        }
+        .clipper 
+        {
+            color: black;
+        }
+        .lowcontainter
+        {
+            position: absolute;
+            top: 75%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            display: flex;
+            align-items: center;
+            gap: 8px; 
+        }
+    </style>
+</head>
+<body>
+    <div class="divider"></div>
+    <div class="upcontainer">
+        <img src="images/icon_48.png" alt="icon" class="image">
+        <span class="text">
+            <span class="ytb">YTB</span> <span class="clipper">Clipper</span>
+        </span>
+    </div>
+</body>
+</html>
